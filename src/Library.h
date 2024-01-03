@@ -5,16 +5,13 @@
     using std::string;
 
 class Library{
-    vector mostWanted; // will be a vector of ptrs to games
-    string game; // game will consist of a name, a year and a publisher.
-
 public:
-    explicit Library(const vector mostWanted, string game);
+    explicit Library(vector <string*> mostWanted);
 
 string getGameName();
-void setGameName(newName);
+void setGameName(string newName); // name is just title of game
 string getGameYear();
-void setGameYear(newYear);
+void setGameYear(int newYear); // year is release date of game
 string getPub();
-void setPub(newPub);
+void setPub(int newPub); // pub is publisher
 };
