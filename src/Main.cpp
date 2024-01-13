@@ -10,6 +10,8 @@
 int main()
 {
     int var = 0;
+    while (var =! 50182)
+    {
 
     cout << "---------------------------------------------------" << std::endl;
     cout << "Select An Option From The Menu Below" << std::endl;
@@ -32,9 +34,14 @@ int main()
     {
         cout << "Option 2";
     }
+    else if (var == 99)
+    {
+        return 50182;
+    }
     else
     {
         cout << "Sorry that input was invalid";
+    }
     }
 
 

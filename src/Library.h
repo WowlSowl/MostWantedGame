@@ -8,10 +8,6 @@ class Library{
 public:
     explicit Library(vector <string*> mostWanted);
 
-string getGameName();
-void setGameName(string newName); // name is just title of game
-string getGameYear();
-void setGameYear(int newYear); // year is release date of game
-string getPub();
-void setPub(int newPub); // pub is publisher
+
+                         // Main Goal of the vector is having memmory address stored and used to access the location of pointers for the name and location of games
 };
