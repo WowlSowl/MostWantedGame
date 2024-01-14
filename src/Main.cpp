@@ -32,10 +32,24 @@ int main()
     }
     else if (var == 3)
     {
-        cout << "Option 2";
+        string userNameGame;
+        int userGameYear;
+        string userNamePub;
+
+        cout << "Enter in the name of the game";
+        cin >> userNameGame;
+        cout << "Enter in the year of release";
+        cin >> userGameYear;
+        cout << "Enter in the publisher of the game";
+        cin >> userNamePub;
+        new game(userNameGame,userGameYear,userNamePub);
+        cout << game.getGameName;
+        cout << game.getGameYear;
+        cout << game.getPub;
     }
     else if (var == 99)
     {
+        cout << "Thank you for using my program. :)"
         return 50182;
     }
     else
