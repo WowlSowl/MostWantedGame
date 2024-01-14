@@ -44,8 +44,8 @@ int main()
         cout << "Enter in the publisher of the game";
         cin >> pub;
 
-        game game1(name,year,pub);
-        game1.getGameName;
+        game newGame();
+        newGame.getGameName;
     }
     else if (var == 99)
     {

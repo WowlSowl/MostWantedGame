@@ -2,11 +2,10 @@
 #include <iostream>
 
 class game{
-private:
+public:
     std::string name;
     int year;
     std::string pub;
-public:
     explicit game(std::string name,int year,std::string pub);
 
 string getGameName();
