@@ -1,4 +1,5 @@
 #include "Library.h"
+#include "Game.h"
 #include <iostream>
     using std::cout;
     using std::cin;
@@ -32,24 +33,23 @@ int main()
     }
     else if (var == 3)
     {
-        string userNameGame;
-        int userGameYear;
-        string userNamePub;
+        string name;
+        int year;
+        string pub;
 
         cout << "Enter in the name of the game";
-        cin >> userNameGame;
+        cin >> name;
         cout << "Enter in the year of release";
-        cin >> userGameYear;
+        cin >> year;
         cout << "Enter in the publisher of the game";
-        cin >> userNamePub;
-        new game(userNameGame,userGameYear,userNamePub);
-        cout << game.getGameName;
-        cout << game.getGameYear;
-        cout << game.getPub;
+        cin >> pub;
+
+        game game1(name,year,pub);
+        game1.getGameName;
     }
     else if (var == 99)
     {
-        cout << "Thank you for using my program. :)"
+        cout << "Thank you for using my program. :)";
         return 50182;
     }
     else
