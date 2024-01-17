@@ -1,32 +1,32 @@
 #include <string>
+    using std::string;
 #include "Game.h"
 
-std::string name = "";
+string name = "";
 int year = 0;
-std::string pub = "";
+string pub = "";
 
-
-std::string getGameName()
+std::string GameClass::getGameName()
 {
     return name;
 }
-void game::setGameName(std::string newName) // name is just title of game
+void GameClass::setGameName(std::string newName) // name is just title of game
 {
     name = newName;
 } 
-int game::getGameYear()
+int GameClass::getGameYear()
 {
     return year;
 }
-void game::setGameYear(int newYear) // year is release date of game
+void GameClass::setGameYear(int newYear) // year is release date of game
 {
-    game.year = newYear;
+    year = newYear;
 }
-std::string game::getPub()
+std::string GameClass::getPub()
 {
-    return game.pub;
+    return pub;
 }
-void game::setPub(std::string newPub)
+void GameClass::setPub(std::string newPub)
 {
-    game.pub = newPub;
+    pub = newPub;
 }
