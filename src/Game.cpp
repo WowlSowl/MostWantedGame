@@ -1,19 +1,22 @@
-game::game(std::string name, int year, std::string pub){
-    game::setGameName("");
-    game::setGameYear(0);
-    game::setGamePub("");
-}
-std::string game::getGameName()
+#include <string>
+#include "Game.h"
+
+std::string name = "";
+int year = 0;
+std::string pub = "";
+
+
+std::string getGameName()
 {
-    return game.name;
+    return name;
 }
 void game::setGameName(std::string newName) // name is just title of game
 {
-    game.name = newName;
+    name = newName;
 } 
 int game::getGameYear()
 {
-    return game.year;
+    return year;
 }
 void game::setGameYear(int newYear) // year is release date of game
 {
