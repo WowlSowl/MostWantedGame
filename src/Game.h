@@ -3,8 +3,12 @@
 #include <iostream>
 
 class GameClass{
+private:
+    string name;
+    int year;
+    string pub;
 public:
-    explicit GameClass(string name, int year, string pub);
+    GameClass(string name, int year, string pub);
 
 string getGameName();
 void setGameName(string newName); // name is just title of game
