@@ -2,9 +2,7 @@
     using std::string;
 #include "Game.h"
 
-string name = "";
-int year = 0;
-string pub = "";
+GameClass agame("",0,"");
 
 std::string GameClass::getGameName()
 {
